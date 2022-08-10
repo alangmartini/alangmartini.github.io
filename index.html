@@ -1,35 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF8">
-        <title>Meu Portfolio</title>
-    </head>
-    <body>
-        <h1>Alan Galvão Martini</h1>
-        
-        <img
-            src="##profile.png"
-            alt="foto de perfil do dono do portfolio Alan Galvão Martini"
-            width="300vh"
-            height="400vh"
-        />
-        <br>
-        <h3><strong>Sobre:</strong></h5>
-            <p style='font-size:20px'>Ex-cozinheiro, de Cuiabá, Mato Grosso, adentrando o mundo do
-                Desenvolvimento Web com a ajuda da 
-                <a href="https://www.betrybe.com/">Trybe</a> &#128640
-            </p>
-        <br>
-        <h3><strong>Habilidades chave:</strong></h3>
-            <ul>
-                <li>Curiosidade aguda</li>
-                <li>Pró-atividade</li>
-                <li>Auto-didata</li>
-            </ul>
+  <head>
+    <meta charset="UTF8" />
+    <title>Meu Portfolio</title>
+  </head>
+  <body style="display: flex; flex-direction: column; align-items: center">
+    <h1 style="margin-bottom: 8px">Alan Galvão Martini</h1>
+    <ul
+      style="
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5px;
+        padding: 3px;
+        width: 25%;
+        min-width: 300px;
+        max-width: 360px;
+      "
+    >
+      <li><a href="#profile-pic">Foto</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+    </ul>
+    <img
+      src="profile.png"
+      id="profile_pic"
+      alt="foto de perfil do dono do portfolio Alan Galvão Martini"
+      width="300vh"
+      height="400vh"
+    />
+    <br />
+    <span
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 70%;
+      "
+    >
+      <h2 id="about"><strong>Sobre:</strong></h2>
+      <p style="font-size: 18px">
+        Ex-cozinheiro, de Cuiabá - Mato Grosso, adentrando o mundo do
+        Desenvolvimento Web com a ajuda da
+        <a href="https://www.betrybe.com/" target="_blank">Trybe</a>
+        &#128640
+    </p>
+      <br />
+      <h3 id="skills" ><strong>Habilidades chave:</strong></h3>
 
-    
-
-
-
-    </body>
+      <ul style="font-size: 19px">
+        <li>Auto-didata</li>
+        <br />
+        <li>Proativo</li>
+        <br />
+        <li><em>Curioso crônico</em</li>
+      </ul>
+    </span>
+  </body>
 </html>
