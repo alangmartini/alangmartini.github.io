@@ -3,44 +3,48 @@
   <head>
     <meta charset="UTF8" />
     <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Quicksand:wght@300&family=Secular+One&display=swap" rel="stylesheet">
+  
   </head>
-  <body style="display: flex; flex-direction: column; align-items: center">
-    <h1 style="margin-bottom: 8px">Alan Galvão Martini</h1>
-    <ul
-      style="
-        list-style-type: none;
-        display: flex;
-        justify-content: space-around;
-        margin-top: 5px;
-        padding: 3px;
-        width: 25%;
-        min-width: 300px;
-        max-width: 360px;
-      "
-    >
+  <header>
+    <ul id="list-one">
       <li><a href="#profile-pic">Foto</a></li>
       <li><a href="#about">Sobre</a></li>
       <li><a href="#skills">Habilidades</a></li>
     </ul>
-    <img
-      src="profile.png"
+  </header>
+  <section
+    id="folder_1"
+  >
+    <section
+      id="folder_2"
+    >
+      <h1
+      id="main_title"
+      class="folder_words"
+      style="font-size: 60px"
+      >Portfolio</h1>
+        <h6
+        id="main_name"
+        class="folder_words"
+        >Alan Galvão Martini</h6>
+
+    </section>
+</section>
+  <body>
+    <img 
+      src="#profile.png"
       id="profile_pic"
       alt="foto de perfil do dono do portfolio Alan Galvão Martini"
-      width="300vh"
-      height="400vh"
     />
     <br />
-    <span
-      style="
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: 70%;
-      "
-    >
+    <span>
       <h2 id="about"><strong>Sobre:</strong></h2>
-      <p style="font-size: 18px">
+      <p >
         Ex-cozinheiro, de Cuiabá - Mato Grosso, adentrando o mundo do
         Desenvolvimento Web com a ajuda da
         <a href="https://www.betrybe.com/" target="_blank">Trybe</a>
@@ -49,7 +53,9 @@
       <br />
       <h3 id="skills" ><strong>Habilidades chave:</strong></h3>
 
-      <ul style="font-size: 19px">
+      <ul 
+      id="list-skills"
+      style="font-size: 19px">
         <li>Auto-didata</li>
         <br />
         <li>Proativo</li>
